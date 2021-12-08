@@ -1,4 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background: url('/images/pattern-background-mobile.svg');
+    background-size: cover;
+    background-repeat: no-repeat ;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 375px;
+    padding: 180px 0;
+}
+
+.card {
+    background: white;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.card-summary {
+    padding-top: 10px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero_img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+.card_plan {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    gap: 30px;
+    background:hsl(225, 100%, 98%);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+button {
+    width: 80%;
+    margin: 0 auto;
 }
