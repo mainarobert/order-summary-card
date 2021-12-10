@@ -10,7 +10,7 @@
 body {
     background: url('/images/pattern-background-mobile.svg');
     background-size: cover;
-    background-repeat: no-repeat ;
+    background-repeat: no-repeat;
 }
 
 .container {
@@ -18,12 +18,15 @@ body {
     margin: 0 auto;
     max-width: 375px;
     padding: 100px 0;
+    box-shadow: px;
 }
 
 .card {
     background: rgb(255, 255, 255);
     border-radius: 20px;
     margin: 0 auto;
+    box-shadow: 0px 5px 15px 0px hsl(240, 48%, 89%);
+    
 }
 
 .card_summary {
@@ -51,7 +54,7 @@ h1 {
     display: flex;
     width: 80%;
     margin: 0 auto;
-    gap: 20px;
+    gap: 10px;
     background:hsl(225, 100%, 98%);
     padding: 10px ;
     border-radius: 10px;
@@ -61,26 +64,52 @@ h1 {
     background: none;
     border: none;
     text-decoration: underline 0;
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+}
+
+.change_btn:hover{
+    color: hsl(245, 75%, 52%, 0.7);
 }
 
 button {
-    display: block;
-    width: 80%;
     margin: 0 auto;
-    border-radius: 10px;
-    padding: 15px;
+    cursor: pointer;
 }
 
 .payment_btn {
     margin-top: 30px;
+    display: block;
+    width: 80%;
+    border-radius: 10px;
+    padding: 15px;
+    background: hsl(245, 75%, 52%);
+    color: #fff;
+    border: none;
+    box-shadow: 0px 20px 15px 0px hsl(240, 48%, 89%);
+}
+
+.payment_btn:hover{
+    background:  hsl(245, 75%, 52%, 0.7);
 }
 
 .cancel_btn {
     background: none;
     border: none;
     color: hsl(224, 23%, 55%);;
+    display: block;
+    width: 80%;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 25px;
+    font-weight: 700;
 }
 
-button {
-    cursor: pointer;
+
+@media(max-width: 1440px) {
+    body {
+        background: url("/images/pattern-background-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
