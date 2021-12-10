@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700;900&display=swap');
 
 *{
     box-sizing: border-box;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
     font-size: 16px;
 }
 
@@ -28,9 +28,10 @@ body {
 
 .card_summary {
     padding: 20px 0;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     text-align: center;
+    color: hsl(224, 23%, 55%);
 }
 
 .hero_img {
@@ -41,6 +42,9 @@ body {
 
 h1 {
     font-weight: 900;
+    color: black;
+    font-size: 1.5rem;
+    padding: 10px 0;
 }
 
 .card_plan {
@@ -53,18 +57,28 @@ h1 {
     border-radius: 10px;
 }
 
+.change_btn {
+    background: none;
+    border: none;
+    text-decoration: underline 0;
+}
+
 button {
     display: block;
     width: 80%;
     margin: 0 auto;
     border-radius: 10px;
     padding: 15px;
+}
+
+.payment_btn {
     margin-top: 30px;
 }
 
-.cancel {
+.cancel_btn {
     background: none;
     border: none;
+    color: hsl(224, 23%, 55%);;
 }
 
 button {
